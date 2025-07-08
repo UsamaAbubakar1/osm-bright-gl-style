@@ -24,7 +24,11 @@
   "sources": {
     "openmaptiles": {
       "type": "vector",
-      "url": "https://api.maptiler.com/tiles/v3-openmaptiles/tiles.json?key={key}"
+      "tiles": [
+        "https://alomoyo-uganda-tiles.s3.amazonaws.com/tiles/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14
     }
   },
   "sprite": "https://openmaptiles.github.io/osm-bright-gl-style/sprite",
