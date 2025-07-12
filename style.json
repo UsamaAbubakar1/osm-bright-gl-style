@@ -25,7 +25,7 @@
     "openmaptiles": {
       "type": "vector",
       "tiles": [
-        "https://alomoyo-uganda-tiles.s3.amazonaws.com/tiles/{z}/{x}/{y}.pbf"
+        "https://alomoyo-pakistan-tiles.s3.us-east-1.amazonaws.com/tiles/{z}/{x}/{y}.pbf"
       ],
       "minzoom": 0,
       "maxzoom": 14
