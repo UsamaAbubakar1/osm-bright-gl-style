@@ -3,13 +3,13 @@
   "id": "streets-v2",
   "name": "Streets",
   "sources": {
-    "maptiler_attribution": {
-      "attribution": "\u003Ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003E&copy; MapTiler\u003C/a\u003E \u003Ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003E&copy; OpenStreetMap contributors\u003C/a\u003E",
-      "type": "vector"
-    },
     "maptiler_planet": {
-      "url":  "https://pakistanmap.s3.us-east-1.amazonaws.com/tiles/{z}/{x}/{y}.pbf",
-      "type": "vector"
+      "type": "vector",
+      "tiles": [
+        "https://pakistanmap.s3.us-east-1.amazonaws.com/tiles/{z}/{x}/{y}.pbf"
+      ],
+      "minzoom": 0,
+      "maxzoom": 14
     }
   },
   "layers": [
