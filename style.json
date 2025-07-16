@@ -6,7 +6,7 @@
     "maptiler_planet": {
       "type": "vector",
       "tiles": [
-        "https://pakistanmap.s3.us-east-1.amazonaws.com/tiles/{z}/{x}/{y}.pbf"
+            "https://api.maptiler.com/tiles/v3/{z}/{x}/{y}.pbf?key=WXtTg6OiRPkMtXiFSQ1O"
       ],
       "minzoom": 0,
       "maxzoom": 14
